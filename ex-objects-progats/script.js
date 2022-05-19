@@ -58,4 +58,8 @@ let menuElements = document.querySelectorAll(".menu--item");
 
 for (let i=0; i<menuElements.length; i++) {
     console.log(menuElements[i].textContent);
-} 
+}  
+
+/* menuElements.forEach((enlace)  => {
+console.log(enlace);
+})  */
