@@ -54,12 +54,12 @@ nuevoCargo.textContent = "Trabajadora";
 
 let menuElements = document.querySelectorAll(".menu--item");
 
-//console.log(menuElements);
+//Las dos versiones(for y forEach) funcionan correctamente, forEach serí más adecuado (y más moderno) en este contexto.
 
-for (let i=0; i<menuElements.length; i++) {
+/* for (let i=0; i<menuElements.length; i++) {
     console.log(menuElements[i].textContent);
-}  
+}  */ 
 
-/* menuElements.forEach((enlace)  => {
-console.log(enlace);
-})  */
+menuElements.forEach((enlace)  => { //"enlaace" puede ser cualqueir texto
+console.log(enlace.textContent);
+})  
