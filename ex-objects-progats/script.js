@@ -54,9 +54,8 @@ nuevoCargo.textContent = "Trabajadora";
 
 let menuElements = document.querySelectorAll(".menu--item");
 
-console.log(menuElements);
+//console.log(menuElements);
 
-/* for (let i=0; i<menuElements.length(); i++) {
-
-    console.log(menuElements[j]).textContent;
-} */
+for (let i=0; i<menuElements.length; i++) {
+    console.log(menuElements[i].textContent);
+} 
