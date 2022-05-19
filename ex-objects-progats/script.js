@@ -25,16 +25,21 @@ let altLogo = document.querySelector(".header--logo").alt;
  * 
  */
  let heightImg = document.querySelector(".header--logo").height;
- console.log("La altura de la imagen es: ", heightImg);
+ //console.log("La altura de la imagen es: ", heightImg);
 
 /**
  * Ejercicio 4. Muestra por el terminal el valor del atributo .href del enlace del footer. Deberíamos ver por el terminal : "https://www.progatslagarriga.com"
  */
 
+ let footerLink = document.querySelector(".footer--link").href;
+ //console.log("El Enlace es: ", footerLink);
+
 /**
  * Ejercicio 5. Han actualizado el lema de la ONG por el texto. Actualiza la propiedad .textContent del texto "¡un hogar para cada gatito!" por el valor de la variable 'nuevoLema'
  */
 let nuevoLema = "¡Los humanos bonitos adoptan gatitos!";
+let lema = document.querySelector(".hero > p");
+lema.textContent = nuevoLema;
 
 /**
  * Ejercicio 6. Verónica ha pasado de ser Voluntaria a Trabajadora. Cambia el texto de su cargo usando JavaScript. Puedes modificar el HTML. Bonus: cambia el texto sin modificar el HTML
@@ -47,3 +52,11 @@ nuevoCargo.textContent = "Trabajadora";
  * Ejercicio 7 (BONUS). Muestra por el terminal el nombre de todos los enlaces del menú de navegación. Es decir debería mostrarse por el terminal: "equipo" , "servicios", "contacto". Pista: usa el selector querySelectorAll y un bucle para iterar entre todos los elementos del array. 
  */
 
+let menuElements = document.querySelectorAll(".menu--item");
+
+console.log(menuElements);
+
+/* for (let i=0; i<menuElements.length(); i++) {
+
+    console.log(menuElements[j]).textContent;
+} */
