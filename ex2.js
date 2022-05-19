@@ -13,5 +13,7 @@ let persona = {
 
  //Aquí tu instrucción JavaScript
 
+ persona.apellidos = "Rudolph";
+
  // No modificar a partir de aqui
  console.log(persona.apellidos)
