@@ -60,6 +60,6 @@ let menuElements = document.querySelectorAll(".menu--item");
     console.log(menuElements[i].textContent);
 }  */ 
 
-menuElements.forEach((enlace)  => { //"enlaace" puede ser cualqueir texto
+menuElements.forEach(enlace  => { //"enlaace" puede ser cualqueir texto y puede ir o no entre paréntesis    
 console.log(enlace.textContent);
 })  
